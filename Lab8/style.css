@@ -1,0 +1,54 @@
+ html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fef6e4;
+}
+        
+.area {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+        
+.box {
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    background-color: #001858;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+        
+#add-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #f582ae;
+    color: #001858;
+    cursor: pointer;
+    user-select: none;
+}
+
+#add-btn:hover {
+    background-color: #001858;
+    color: #f582ae;
+    font-size: 45px;
+    transition: 0.2s ease-in;
+}
+
+.textarea{
+    width: 200px;
+    height: 200px;
+    resize: none;
+}
+
